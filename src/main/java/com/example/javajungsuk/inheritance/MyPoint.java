@@ -6,9 +6,13 @@ import lombok.Setter;
 public class MyPoint {
   public static void main(String[] args) {
     Point point3D =  new Point3D(1,2);
-    Point point =  new Point(3,4);
+    Point point = new Point(3, 4);
+    Point3D point3D1 = new Point3D(1, 2);
+    System.out.println("point3D = " + point3D);
+    System.out.println("point = " + point);
     System.out.println("point3D.getX() = " + point3D.getX());
     System.out.println("point.getX() = " + point.getX());
+    System.out.println(point3D1.getX());
   }
 }
 
