@@ -36,6 +36,5 @@ public class MyFunctionLamda {
 
     execute(f2);
     execute(() -> System.out.println("run()"));
-
   }
 }
